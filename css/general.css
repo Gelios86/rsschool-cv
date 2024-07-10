@@ -1,0 +1,26 @@
+
+body {
+    font-family: "DIN Pro", sans-serif;
+    padding: 50px 0;color: #333333
+}
+div {
+    max-width:1200px;
+    margin: 0 auto;
+}
+a,
+a:focus,
+a:visited{
+    color: cornflowerblue;
+    text-decoration: none;
+    border-bottom:1px solid transparent;
+    transition: all ease-in 200ms;
+}
+a:hover {
+    border-bottom-color:green;
+    color: blue;
+}
+#primary_photo { float: right; margin: 0 0 15px 15px}
+.experience {color: cadetblue}
+/*#job-name { border-top:dashed lightgray 3px; margin-top:40px; padding-top:20px }*/
+h3 {font-weight: 100;color: seagreen;font-size: 19px;}
+td {vertical-align: top;}
